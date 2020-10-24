@@ -15,7 +15,7 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
+  
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -27,12 +27,10 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Techie - v2.1.0
-  * Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+ 
 </head>
 
 <body>
@@ -44,8 +42,7 @@
       <div class="row justify-content-center">
         <div class="col-xl-9 d-flex align-items-center">
           <h1 class="logo mr-auto"><a href="index.html">Satusoft</a></h1>
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          
 
           <nav class="nav-menu d-none d-lg-block">
             <ul>
@@ -70,15 +67,26 @@
 
     <div class="container-fluid" data-aos="fade-up">
       <div class="row justify-content-center">
+        
+        
+
         <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h1>Make Your Digital </h1>
           <h1>Experience with Satusoft</h1>
-          <h1>We Create Apps</h1>
+          <h1>We <span style="color:#e8505b;" class="typed-title" >Apps</span></h1>
           <h2>We’re  provide a digital solution for your business based on customer needs with professional delivery .</h2>
-        
+          
         </div>
         <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          <!-- <img src="assets/img/hero-img.png" class="img-fluid animated" alt=""> -->
+          <lottie-player
+            src="https://assets6.lottiefiles.com/packages/lf20_ssykcf3w.json"
+            background="transparent"
+            speed="1"
+            style="width: 600px; height: 600px;"
+            loop
+            autoplay>
+          </lottie-player>
         </div>
       </div>
     </div>
@@ -318,6 +326,14 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
+  <script> 
+    var typed = new Typed('.typed-title', {
+      strings: ["Create Your Apps.", "Develop Your Website.","Implement Your Business ERP.","Maintenance Your System.","Are Your Solutions."],
+      typeSpeed: 50,
+      backSpeed : 50,
+    });
+  </script> 
+
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
