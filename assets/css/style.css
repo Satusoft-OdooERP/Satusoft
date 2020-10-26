@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #444444;
 }
 
@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -75,7 +75,7 @@ h6 {
 }
 
 #preloader:before {
-  content: '';
+  content: "";
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
@@ -185,11 +185,11 @@ h6 {
   font-size: 15px;
   font-weight: 600;
   padding: 0 3px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .nav-menu > ul > li > a:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 2px;
@@ -253,7 +253,7 @@ h6 {
 }
 
 .nav-menu .drop-down > a:after {
-  content: '\ea99';
+  content: "\ea99";
   font-family: IcoFont;
   padding-left: 5px;
 }
@@ -274,7 +274,7 @@ h6 {
 }
 
 .nav-menu .drop-down .drop-down > a:after {
-  content: '\eaa0';
+  content: "\eaa0";
   font-family: IcoFont;
   position: absolute;
   right: 15px;
@@ -288,7 +288,7 @@ h6 {
     left: -100%;
   }
   .nav-menu .drop-down .drop-down > a:after {
-    content: '\ea9d';
+    content: "\ea9d";
   }
 }
 
@@ -379,7 +379,7 @@ h6 {
 }
 
 .mobile-nav .drop-down > a:after {
-  content: '\ea99';
+  content: "\ea99";
   font-family: IcoFont;
   padding-left: 10px;
   position: absolute;
@@ -387,7 +387,7 @@ h6 {
 }
 
 .mobile-nav .active.drop-down > a:after {
-  content: '\eaa1';
+  content: "\eaa1";
 }
 
 .mobile-nav .drop-down > a {
@@ -464,7 +464,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -577,7 +577,7 @@ section {
 }
 
 .section-title h2::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -624,7 +624,7 @@ section {
 }
 
 .about .content .read-more {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -657,7 +657,7 @@ section {
       rgba(88, 70, 249, 0.5) 0%,
       rgba(123, 39, 216, 0.5) 100%
     ),
-    url('../img/counts-bg.png') center center no-repeat;
+    url("../img/counts-bg.png") center center no-repeat;
   padding: 80px 0 60px 0;
 }
 
@@ -666,7 +666,7 @@ section {
   display: block;
   color: #fff;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .counts .counters p {
@@ -951,7 +951,7 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 5px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .portfolio #portfolio-flters li:hover,
@@ -972,7 +972,7 @@ section {
 }
 
 .portfolio .portfolio-wrap::before {
-  content: '';
+  content: "";
   background: rgba(88, 70, 249, 0.8);
   position: absolute;
   left: 30px;
@@ -1075,7 +1075,7 @@ section {
   font-size: 36px;
   color: #5846f9;
   font-weight: 600;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1131,7 +1131,7 @@ section {
   transition: none;
   font-size: 15px;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1197,7 +1197,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1328,7 +1328,7 @@ section {
 }
 
 .contact .php-email-form .loading:before {
-  content: '';
+  content: "";
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -1360,7 +1360,7 @@ section {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type='submit'] {
+.contact .php-email-form button[type="submit"] {
   background: #5846f9;
   border: 0;
   padding: 10px 24px;
@@ -1369,7 +1369,7 @@ section {
   border-radius: 5px;
 }
 
-.contact .php-email-form button[type='submit']:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #7b27d8;
 }
 
@@ -1423,7 +1423,7 @@ section {
   display: inline-block;
   padding-right: 10px;
   color: #3c6387;
-  content: '/';
+  content: "/";
 }
 
 @media (max-width: 768px) {
@@ -1560,7 +1560,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #footer .footer-top h4 {
@@ -1630,13 +1630,13 @@ section {
   border: 1px solid white;
 }
 
-#footer .footer-newsletter form input[type='email'] {
+#footer .footer-newsletter form input[type="email"] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
 
-#footer .footer-newsletter form input[type='submit'] {
+#footer .footer-newsletter form input[type="submit"] {
   position: absolute;
   top: -1px;
   right: -2px;
@@ -1652,7 +1652,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#footer .footer-newsletter form input[type='submit']:hover {
+#footer .footer-newsletter form input[type="submit"]:hover {
   background: #5846f9;
 }
 
@@ -1689,4 +1689,7 @@ section {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   text-decoration: none;
+}
+#icon_button {
+  margin-right: 5px;
 }
