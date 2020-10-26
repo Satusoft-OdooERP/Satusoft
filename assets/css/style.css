@@ -126,7 +126,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(24, 6, 185, 0.8);
+  background: #1e90ff;
   padding: 12px 0;
 }
 
@@ -434,10 +434,10 @@ h6 {
   height: 100vh;
   background: linear-gradient(
       45deg,
-      rgba(86, 58, 250, 0.9) 0%,
-      rgba(116, 15, 214, 0.9) 100%
+      rgba(30, 44, 255, 0.9) 0%,
+      rgba(30, 144, 255, 0.9) 100%
     ),
-    url('../img/hero-bg.jpg') center center no-repeat;
+    url(../img/hero-bg.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -556,7 +556,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f9f8ff;
+  background-color: #e8f4ff;
 }
 
 .section-title {
@@ -1158,7 +1158,7 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
-  background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(42deg, #0b79e4 0%, #1e90ff 100%);
 }
 
 .faq .section-title h2,
