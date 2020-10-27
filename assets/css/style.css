@@ -492,7 +492,7 @@ h6 {
   }
   #hero .container,
   #hero .container-fluid {
-    padding-top: 68px;
+    padding-top: 0px;
   }
   #hero .animated {
     -webkit-animation: none;
@@ -548,7 +548,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 100px 0;
+  padding: 80px 0;
   overflow: hidden;
   background: #1e90ff;
 }
@@ -592,7 +592,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  padding: 120px 0;
+  padding: 80px 0;
   background: #1e90ff;
   color: #ffffff;
 }
@@ -726,7 +726,6 @@ section {
 }
 
 .services .icon-box p {
-  line-height: 1.8;
   font-size: 16px;
   margin-bottom: 0;
 }
@@ -828,7 +827,6 @@ section {
 .features .icon-box p {
   font-size: 16px;
   color: #ffffff;
-  line-height: 1.8;
 }
 
 .features .image {
@@ -2058,5 +2056,15 @@ section {
   .lottie {
     width: 90%;
     height: 90%;
+  }
+}
+.text_line {
+  color: #ffffff;
+  line-height: 1.8;
+}
+@media (max-width: 991px) {
+  .text_line {
+    color: #ffffff;
+    line-height: 1.5;
   }
 }
