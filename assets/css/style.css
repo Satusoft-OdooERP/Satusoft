@@ -821,7 +821,7 @@ section {
 }
 
 .services .icon-box p {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
@@ -922,6 +922,7 @@ section {
 .features .icon-box p {
   font-size: 18px;
   color: #ffffff;
+  line-height: 2;
 }
 
 .features .image {
@@ -2156,13 +2157,13 @@ section {
 .text_line {
   color: #ffffff;
   line-height: 1.8;
-  font-size: 18px;
+  font-size: 16px;
 }
 @media (max-width: 991px) {
   .text_line {
     color: #ffffff;
     line-height: 1.8;
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 .space {
