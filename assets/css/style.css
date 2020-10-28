@@ -656,7 +656,7 @@ section {
 }
 .section-title {
   text-align: center;
-  padding-bottom: 80px;
+  padding-bottom: 30px;
 }
 
 .section-title h2 {
@@ -2164,6 +2164,17 @@ section {
     color: #ffffff;
     line-height: 1.8;
     font-size: 16px;
+    text-align: center;
+  }
+  .features .icon-box p {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 2;
+    text-align: center;
+  }
+  .portfolio_title {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
   }
 }
 .space {
@@ -2217,4 +2228,7 @@ section {
   .space-box {
     height: 80px;
   }
+}
+.portfolio_title {
+  font-family: 'Nunito', sans-serif;
 }
