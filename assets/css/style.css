@@ -447,9 +447,9 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 52px;
+  font-size: 60px;
   font-weight: 700;
-  line-height: 64px;
+  line-height: 1.2;
   color: #fff;
 }
 
@@ -554,7 +554,7 @@ h6 {
 }
 
 #hero2 .btn-get-started {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -821,7 +821,7 @@ section {
 }
 
 .services .icon-box p {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 0;
 }
 
@@ -922,7 +922,7 @@ section {
 .features .icon-box p {
   font-size: 18px;
   color: #ffffff;
-  line-height: 2;
+  line-height: 2.2;
 }
 
 .features .image {
@@ -2156,25 +2156,26 @@ section {
 }
 .text_line {
   color: #ffffff;
-  line-height: 1.8;
-  font-size: 16px;
+  line-height: 2.2;
+  font-size: 18px;
 }
 @media (max-width: 991px) {
   .text_line {
     color: #ffffff;
-    line-height: 1.8;
-    font-size: 16px;
+    line-height: 2.2;
+    font-size: 18px;
     text-align: center;
   }
   .features .icon-box p {
     font-size: 18px;
     color: #ffffff;
-    line-height: 2;
+    line-height: 2.2;
     text-align: center;
   }
   .portfolio_title {
     font-family: 'Nunito', sans-serif;
     text-align: center;
+    font-size: 50px;
   }
 }
 .space {
@@ -2206,8 +2207,10 @@ section {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
+
   margin-left: 0px;
+  justify-content: center;
+  margin-right: 30px;
 }
 @media (max-width: 991px) {
   .button_tech {
@@ -2215,7 +2218,7 @@ section {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
+
     margin-left: 0px;
     justify-content: center;
   }
@@ -2231,4 +2234,57 @@ section {
 }
 .portfolio_title {
   font-family: 'Nunito', sans-serif;
+  font-size: 50px;
+}
+.read-more {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px 28px 10px 50px;
+  border-radius: 5px;
+  transition: 0.5s;
+  width: 170px;
+  text-align: center;
+  color: #fff;
+  margin-right: 10px;
+  background: #1e90ff;
+  position: relative;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.read-more:hover {
+  background: #1e90ff;
+  color: #fff;
+  border-color: #fff;
+}
+
+.read-more i {
+  font-size: 22px;
+  position: absolute;
+  left: 20px;
+  top: 9px;
+}
+.icon_apple {
+  font-size: 22px;
+  position: absolute;
+  left: 30px;
+  top: 9px;
+}
+@media (max-width: 372px) {
+  .read-more {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 28px 10px 50px;
+    border-radius: 5px;
+    transition: 0.5s;
+    width: 170px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background: #1e90ff;
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+  }
 }
